@@ -11,9 +11,11 @@ export default [
             ecmaVersion: "latest",
         },
         // Using the eslint-plugin-example plugin defined locally
-        plugins: {"example": eslintPluginExample},
+        plugins: {
+            "example-plugin": eslintPluginExample
+        },
         rules: {
-            "example/enforce-foo-bar": "error",
+            "example-plugin/rule-name-in-plugin": "error",
         },
     }
 ]
