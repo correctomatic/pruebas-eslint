@@ -1,7 +1,7 @@
-const fooBarRule = require("./enforce-foo-bar");
+import fooBarRule from "./enforce-foo-bar.js";
 const plugin = {
   rules: {
     "enforce-foo-bar": fooBarRule
   }
 };
-module.exports = plugin;
+export default plugin;

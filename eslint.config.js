@@ -1,9 +1,9 @@
 "use strict";
 
 // Import the ESLint plugin locally
-const eslintPluginExample = require("./eslint-plugin-example");
+import eslintPluginExample from "./eslint-plugin-example.js";
 
-module.exports = [
+export default [
     {
         files: ["**/*.js"],
         languageOptions: {
